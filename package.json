@@ -1,0 +1,23 @@
+{
+  "name": "atividade01",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^30.1.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mon": "^0.0.8",
+    "node": "^20.19.5",
+    "supertest": "^7.1.4"
+  }
+}
